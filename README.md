@@ -13,13 +13,13 @@ input_file must be a properly formed FASTA-formatted sequence alignment file.
 
 Example format:
 
->Sequence1_name
+\>Sequence1_name
 SEQUENCE1
->Sequence2
+\>Sequence2
 SEQUENCE2
 
 Improper format:
 
->Sequence1_name
+\>Sequence1_name
 SEQUENCE1>Sequence2
 SEQUENCE2
