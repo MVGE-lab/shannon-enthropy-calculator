@@ -13,13 +13,13 @@ input_file must be a properly formed FASTA-formatted sequence alignment file.
 
 Example format:
 
-"\>Sequence1_name\n
-SEQUENCE1\n
-\>Sequence2\n
+"\>Sequence1_name(new line)
+SEQUENCE1(new line)
+\>Sequence2(new line)
 SEQUENCE2"
 
 Improper format:
 
-"\>Sequence1_name\n
-SEQUENCE1>Sequence2\n
+"\>Sequence1_name(new line)
+SEQUENCE1>Sequence2(new line)
 SEQUENCE2"
