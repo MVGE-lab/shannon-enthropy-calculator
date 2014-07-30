@@ -1,9 +1,9 @@
 shannon-enthropy-calculator
 ===========================
 
-Python script for calculating of Shannon enthropy value using multiple sequence alignment in fasta format.
+Python script for calculating of Shannon enthropy value using multiple sequence alignment in FASTA format.
 Produces Tab-delimited list of Shannon enthropy of sequence alignment positions.
-If you have Matplotlib installed you can uncomment corresponding lines in the script.
+For using this tool you must have Matplotlib installed.
 
 USAGE:
 
@@ -13,13 +13,14 @@ input_file must be a properly formed FASTA-formatted sequence alignment file.
 
 Example format:
 
-"\>Sequence1_name\n
-SEQUENCE1\n
-\>Sequence2\n
+"\>Sequence1_name(new line)
+SEQUENCE1(new line)
+
+\>Sequence2(new line)
 SEQUENCE2"
 
 Improper format:
 
-"\>Sequence1_name\n
-SEQUENCE1>Sequence2\n
+"\>Sequence1_name(new line)
+SEQUENCE1>Sequence2(new line)
 SEQUENCE2"
