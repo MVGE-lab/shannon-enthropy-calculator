@@ -15,7 +15,10 @@ Example format:
 
 "\>Sequence1_name(new line)
 SEQUENCE1(new line)
+<<<<<<< HEAD
 
+=======
+>>>>>>> origin/master
 \>Sequence2(new line)
 SEQUENCE2"
 
